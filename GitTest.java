@@ -9,5 +9,9 @@ public class GitTest {
 
         System.out.println("Änderung nach erstellung von Riccardo branch - push auf main vor riccardo");
 
+
+
+        System.out.println("Konflikt nach riccardo");
+
     }
 }
