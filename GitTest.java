@@ -12,6 +12,5 @@ public class GitTest {
 
 
         System.out.println("Konflikt nach riccardo");
-
     }
 }
