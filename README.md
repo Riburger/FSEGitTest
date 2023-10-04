@@ -48,6 +48,21 @@ Nachdem der Konflikt gelöst wurde konnten wir online mit "Open pull Request" di
 Anschließend wurde der Fehler von Julian erneut produziert um die Online Resolve Möglichkeit auszuprobieren.
 Siehe Commits
 
+Nachdem ich die ReadMe.md Datei weiter geschrieben habe, habe ich sie auch direkt auf Github gepusht.
+Julian hatte diese Änderungen nicht und wir haben uns gemeinsam darum gekümmert, dass er sie bekommt.
+
+Wir sind in seinen lokalen Mainbranch ausgecheckt und haben uns darum gekümmert dass Julian die geänderten Dateien bekommt.
+Da git pull eigentlich 2 befehle in einem ausführt, werde ich das nun etwas erklären. 
+git pull führt als erstes einen Fetch durch und merged diese Änderungen dann Fast Forward in die Dateien. Wenn es zu einem True merge kommt muss man die Konflikte beheben
+und nochmals git pull durchführen.
+
+```
+git pull origin main
+git checkout JuliansBranch
+git merge main //Dieser Befehl merged den angegebenen Branch in den aktuellen Branch.
+```
+
+
 **GitHub Flow Vor und Nachteile**
 
 _Vorteile_
